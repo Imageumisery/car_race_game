@@ -1,0 +1,30 @@
+
+.background {
+    display: flex;
+    height: 100vh;
+    background: no-repeat url('/src/assets/background.jpg');
+    background-size: cover;
+    border: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 6rem;
+    border-radius: 5%;
+    margin: 10px;
+    // background-color: aliceblue;
+    font-size: 1rem;
+    p {
+        color: red;
+    }
+}
+
+.title {
+    font-size: 2rem;
+    color: white;
+}
